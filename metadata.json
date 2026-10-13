@@ -1,0 +1,6 @@
+{
+  "name": "IEEE Figure: Longitudinal LLM Drift Attribution",
+  "description": "High-resolution IEEE publication figure visualizing experimental results of longitudinal LLM drift attribution across safety, fairness, and factuality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

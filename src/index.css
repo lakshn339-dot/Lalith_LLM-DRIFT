@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ieee-serif: "STIX Two Text", "Times New Roman", Times, "Nimbus Roman No9 L", serif;
+    --ieee-sans: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --ieee-mono: "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+.font-serif-ieee {
+  font-family: var(--ieee-serif);
+}
+
+.font-sans-ieee {
+  font-family: var(--ieee-sans);
+}
+
+.font-mono-ieee {
+  font-family: var(--ieee-mono);
+}
+
+/* Publication print simulation */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
